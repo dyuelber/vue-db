@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
   ],
   resolve: {
-    base: '/vue-db/',
+    base: './',
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
