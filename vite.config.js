@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/vue-db/',
   resolve: {
-    base: './',
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
